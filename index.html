@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+    <title>Publish by Koushik</title>
+</head>
+
+<body>
+
+    <div id="welcome_page">
+        <p id="site_name">Welcome!</p>
+
+        <div id="notepad_design">
+            Welcome aboard! <br>
+            We value of your privacy<br><br>
+            Creator : Koushik Ghosh <br>
+            UI Design : Koushik Ghosh<br><br>
+            Clean UI Experience For All of You.
+        </div>
+
+        <button id="welcome_button">Continue ⥱</button>
+    </div>
+
+
+
+
+    <div id="this_is_responsive">
+        <div id="element">
+            <div class="logo">📝 NoteField</div>
+            <div class="newnote" onclick="new_note()">+ New Note</div>
+            <div class="closenote" onclick="close_note()">Close Note</div>
+            <div id="view-save-note" onclick="mysavenotes()">View Saved Notes</div>
+            <!-- <div id="menu">Dark</div> -->
+        </div>
+
+
+
+        <div id="content">
+            <div class="new">Deploy by Koushik <br> Create New Note :)</div>
+
+        </div>
+
+
+        <div id="box-for-save-note">
+            <div id="save-note">
+            </div>
+        </div>
+
+
+
+        <div id="write">
+            <textarea placeholder="whats on your mind..."></textarea>
+            <button id="save" onclick="saving()">Save</button>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
