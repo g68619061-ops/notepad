@@ -258,10 +258,12 @@ textarea {
 @keyframes saving {
     from {
        transform: translatex(-100vw);
+       backdrop-filter: blur(0px);
     }
 
     to {
         opacity: 1;
+        backdrop-filter: blur(5px)
     }
 }
 
@@ -279,9 +281,10 @@ textarea {
     height: 630px;
     outline: 1px;
     overflow-y: auto;
-    animation-name: saving;
+    /*animation-name: saving;
     animation-duration: 0.5s;
-    animation-iteration-count: 1;
+   animation-iteration-count: 1;
+   */
 }
 
 #box-for-save-note::-webkit-scrollbar {
